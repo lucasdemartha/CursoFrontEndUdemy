@@ -8,9 +8,9 @@ h3 {
     color: green;
 }
 
-p {
+/* p {
     color: purple;
-}
+} */
 
 /* CTRL+/ */
 
@@ -39,4 +39,96 @@ h2 {
 
 .algum-titulo {
     border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+.color-name {
+    color: crimson;
+}
+
+/* hex */
+.hex-color {
+    color: #55A398;
+}
+.hex-color2 {
+    color: #a8982c;
+}
+
+/* aprofundando em hex */
+.simple-hex {
+    color: #333;
+}
+.simple-hex2 {
+    color: #a5f;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(205, 21, 100);
+}
+
+/* RGBa */
+.rgba {
+    color: rgba(100, 199, 45, 0.5);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(120, 100%, 50%); /* tom, saturação, luminosidade */
+}
+
+.hsl2 {
+    color: hsl(197, 92%, 15%); /* tom, saturação, luminosidade */
+}
+
+/* BACKGROUND-COLOR */
+.bg {
+    background-color: #000;
+    color: yellow
+}
+
+.bg2 {
+    background-color: rgb(200,20,40);
+    color: #00eaff;
+}
+
+/* background opacity */
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+/* rgba com opacidade */
+.bg-opacity-rgba {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000;
+}
+
+/* BG image */
+.bg-image {
+    background-image: url('../img/nature.jpg'); /* url da imagem */
+    padding: 10px;
+    color: #FFF;
+}
+
+/* centralizando bg image */
+.not-centered-bg, .centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url('../img/bridge.jpg');
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
 }
